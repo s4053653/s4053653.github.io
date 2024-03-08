@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div id="logo">
+            <img src="https://freepngimg.com/thumb/logo/75670-timon-and-puma-humour-pumbaa-cat-logo.png" alt="logo image" height="60px">
+        </div>
+    </center>
+    <h4><a href="index.html"><- Go back</a></h4>
+    <center>
+        <h1>Purchase information</h1>
+        <form method="POST">
+            <fieldset>
+                <legend>Buyer info</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Full name</label></td>
+                        <td>
+                            <input type="text" name="name" id="name" placeholder="Nguyen Van A">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email address</label></td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone No.</label></td>
+                        <td>
+                            <input type="tel" name="phone" id="phone" placeholder="(000)-000-000">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Shipping details</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="address">Street address</label>
+                        </td>
+                        <td>
+                            <input id="address" name="address" type="text" placeholder="123 Nguyen Dinh Chieu St.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="district">District</label>  </td>
+                        <td>
+                            <input id="district" name="district" type="text" placeholder="District 1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City</label></td>
+                        <td>
+                            <select id="city" name="city">
+                                <option>Ho Chi Minh</option>
+                                <option>Hue</option>
+                                <option>Ha Noi</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Items</legend>
+                <table>
+                    <tr>
+                        <td><label for="item">Choose your item</label></td>
+                        <td>
+                            <select name="item" id="item">
+                                <option>This shoe</option>
+                                <option>That shoe</option>
+                                <option>This other shoe</option>
+                                <option>Look at this</option>
+                                <option>Wow</option>
+                                <option>Check this out</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Submit order">
+        </form>
+    </center>
+    
+</body>
+</html>
